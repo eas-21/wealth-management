@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'wealth-management'`, () => {
+  it(`should have as title 'sbi'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('wealth-management');
+    expect(app.title).toEqual('sbi');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('wealth-management app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('sbi app is running!');
   });
 });

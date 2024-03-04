@@ -1,0 +1,77 @@
+
+<!-- <div class="header">Get in Touch</div> -->
+<div class="item" id="header-image-menu">
+    <img src="assets/images/slide9.jpg">
+  
+   <div id="image-text">
+      <!-- <h1> CSS header image </h1> -->
+      <h1 class="display-3 text-white mb-4 animated slideInDown">Contact us</h1>
+      <!-- <h1>  </h1> -->
+    </div>
+  </div>
+<div class="container">
+<div class="whitebox">
+    <div class="header"> Get in Touch </div>
+   <div [formGroup]="form">
+    <form action="javascript:void(0)" (submit)="send()">
+        <div class="my-2" style="border-color: #E56717;">
+            <label for="uname">Name </label>
+            <input type="text" class="form-control" formControlName="from_name" placeholder="Please enter your name"
+                name="user_name">
+        </div>
+        <div class="my-2">
+            <label for=" text1">EmailId</label>
+            <input type="text" class="form-control" formControlName="from_email" placeholder="john@gmail.com" rows="3" name="user_email">
+
+        </div> 
+        <div class="my-2">
+            <label for=" text1">Subject</label>
+            <input type="text" class="form-control" formControlName="subject" placeholder="Subject" rows="3" name="subject">
+
+        </div>      
+        <div class="my-2">
+            <label for=" text2"> Message </label>
+            <textarea class="form-control" formControlName="message"  rows="3" id="text2" name="message">
+        </textarea>
+        </div>
+        <!-- <div class="form-check mb-2">
+            <label class="form-check-label" id="fcl">
+                <input class="form-check-input" type="checkbox" name="click" id="ad"> Click here
+            </label>
+        </div> -->
+        <button type="submit" class="center btn btn-danger" style="width: 100%; background-color:#ef662b; margin: 3px;"> Submit </button>
+    </form>
+    <!-- {{form.value | json}} -->
+</div>
+    </div>
+    <div class="bluebox">
+        <h3>Registered Office</h3>
+      
+        <div class="infoflexbox">
+        <div class="infoflex">
+        <span class="material-icons">add_location</span>
+        <p class="infotext">Krishna Puram, Saravanampatty Post, Coimbatore – 641035, Tamilnadu</p>
+      </div>
+      <div class="infoflex">
+        <span class="material-icons">phone</span>
+        <p class="infotext1">Mobile: +91 – 98422 34523</p><br>
+        </div>
+        <h3>Factory</h3>
+        <div class="infoflex">
+        <span class="material-icons">add_location</span><p class="infotext">#424, 6th cross, Thanner Pandal,
+      V. K. Road, Peelamedu Coimbatore - 641 004 Tamil Nadu, INDIA</p>
+        </div>
+        <div class="infoflex">
+        <span class="material-icons">phone</span><p class="infotext1">Office: +91 – 0422-2510391</p>
+        </div>
+        <div class="infoflex">
+        <span class="material-icons">email</span><p class="infotext1"><a href="mailto:easwari@sbi.bio" tabindex="0">info@sbi.bio</a></p>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="map">
+    <!-- <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.6259554718863!2d76.99890130995988!3d11.066644889054821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f7fb0b35952f%3A0x63e4b3ad659d75d5!2sSaravanampatti%20Post%2C%20Chitra%20Nagar%2C%20Saravanampatti%2C%20Coimbatore%2C%20Tamil%20Nadu%20641035!5e0!3m2!1sen!2sin!4v1705657826157!5m2!1sen!2sin" width="1500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.7509849754624!2d77.00151080995961!3d11.057287089063605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85807291de053%3A0x873f2128896b29ba!2sShree%20Bommu%20Industries!5e0!3m2!1sen!2sin!4v1705658634048!5m2!1sen!2sin" allowfullscreen="" class="mapinfo" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+

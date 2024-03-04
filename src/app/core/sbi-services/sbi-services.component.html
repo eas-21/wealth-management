@@ -1,0 +1,106 @@
+<!-- <body>
+    <div class="box center">
+      <h1 class="h1">Business</h1>
+      <h1 class="h1">Development</h1>
+      <h4 class="h4">Have an idea or inquiry for Waze business development?</h4>
+    <button class="btn">Share your ideas</button>
+    
+      </div>
+      
+    </body> -->
+
+
+<div class="item" id="header-image-menu">
+  <img src="assets/images/slide9.jpg">
+
+  <div id="image-text">
+    <!-- <h1> CSS header image </h1> -->
+    <h1 class="display-3 text-white mb-4 animated slideInDown">Services</h1>
+    <!-- <h1>  </h1> -->
+  </div>
+</div>
+<div class="container">
+  <h1 style="padding-top: 40px; padding-bottom: 20px; border-bottom: 1px dashed #c6c6c6;" class="demo-title bg-alt">Our Zero Waste Concepts – Our Key Processes & Equipments
+  </h1>
+  <h2 style="text-align: center;" class="subtitle bg-alt">We Supply 10 TPD to 1000 TPD Capacity Plants
+    (Manure and RDF Plant, Biogas Plant, Fresh Waste Handling Process & Bio Mining Process)</h2>
+  <div class="box">
+    <div class="p-2 flex-grow-1 bd-highlight">
+      <p> 1. Manure Process</p>
+      <div class="padding">
+        <p>Chain Conveyor and Roller Conveyor</p>
+        <p> Trommels Ø120, Ø100, Ø75, Ø50, Ø35, Ø16, Ø 6-4 mm</p>
+        <p>Bag Opener</p>
+        <p> Shredder Machines Different Capacity</p>
+        <p> Plastic Shredder</p>
+        <p> Magnetic Separator</p>
+        <p> De-Stoner</p>
+        <p>Air Density Separator</p>
+        <p> Bucket Elevator</p>
+        <p>Bulk Packing Unit</p>
+        <p> Vibro Screen</p>
+      </div>
+    </div>
+    <div class="p-2 flex-grow-1 bd-highlight">2. RDF Plant
+      <div class="padding">
+        <p> Shredder Machines Different Capacity & Plastic Shredder</p>
+        <p>Baling Machine</p>
+      </div>
+      <p>3. Garbage Bins</p>
+      <p>4. Biogas Plant 1 to 50 TPD Construction and Portable Type</p>
+      <p>5. Primary Collection</p>
+      <div class="padding">
+        <p>Pushcart</p>
+        <p>Try Cycle and others</p>
+        <p>Battery Car</p>
+      </div>
+      <p> 6. Pyrolysis Plant</p>
+      <p>7. Recycled Polymer Sand Paver Block Machine</p>
+      <p>8. Construction & Demolition Waste</p>
+      <p>9. Activated Carbon</p>
+    </div>
+
+  </div>
+
+</div>
+<!-- <div class="container">
+<h1 style="text-align: center;" class="demo-title bg-alt">Zero Waste Concepts - Equipments</h1>
+<section class="customOptions">
+<owl-carousel-o [options]="customOptions">
+  <ng-container *ngFor="let slide of dynamicSlides">
+    <ng-template carouselSlide [id]="slide.id">
+      <img [src]="slide.src" class="slide" [alt]="slide.alt" [title]="slide.title">      
+      <div class="container">
+        <h4 style="align-items: center;"><b>{{slide.title}}</b></h4> 
+        </div>
+    </ng-template> 
+  </ng-container>
+</owl-carousel-o>
+</section>
+</div> -->
+
+<div class="container">
+  <h1 style="padding-top: 40px; padding-bottom: 20px; border-bottom: 1px dashed #c6c6c6;" class="demo-title bg-alt">Zero Waste Concepts - Equipments</h1>
+  <section class="cardOptions">
+    <owl-carousel-o [options]="cardOptions">
+      <ng-container *ngFor="let slide of dynamicSlides">
+        <ng-template carouselSlide>
+          <div class="card">
+            <img [src]="slide.src" class="slide" [alt]="slide.alt" [title]="slide.title" alt="Avatar">
+            <div class="container">
+              <h4 style="align-items: center;"><b>{{slide.title}}</b></h4>
+              <!-- <p>{{slide.title}}</p>       -->
+            </div>
+          </div>
+        </ng-template>
+      </ng-container>
+    </owl-carousel-o>
+  </section>
+</div>
+
+ 
+<!-- <div >
+  <img src="assets/images/icon/up-arrow-button.png" class="to-top" (click)="gotoTop()"> 
+</div> -->
+
+

@@ -1,0 +1,39 @@
+/********** Template CSS **********/
+:root {
+    --primary: #348E38;
+    --secondary: #525368;
+    --light: #E8F5E9;
+    --dark: #0F4229;
+}
+
+.cardOptions .owl-next, .cardOptions .owl-prev, .customOptions .owl-next, .customOptions .owl-prev{
+    background: #7e8e34!important;
+    color: #222, im !important;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%!important;
+    position: absolute;
+    top: 50%;
+}
+.cardOptions .owl-next i, .cardOptions .owl-prev i, .customOptions .owl-next i, .customOptions .owl-prev i{
+    font-size: 24px;
+    color:#fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.cardOptions .owl-next:hover, .cardOptions .owl-prev:hover, .customOptions .owl-next:hover, .customOptions .owl-prev:hover{
+    background: #ef662b!important;
+    color: #fff!important;
+}
+.cardOptions .owl-next, .customOptions .owl-next{
+    right: -48px;
+    transform: translate(-50%, -50%);
+}
+.cardOptions .owl-prev, .customOptions .owl-prev{
+    left: 10px;
+    transform: translate(-50%, -50%);
+}
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';

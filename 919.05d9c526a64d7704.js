@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwealth_management=self.webpackChunkwealth_management||[]).push([[919],{4919:(E,a,e)=>{e.r(a),e.d(a,{SbiServicesModule:()=>s});var o=e(6895),u=e(8912),_=e(8068),l=e(4650);let s=(()=>{class n{}return n.\u0275fac=function(r){return new(r||n)},n.\u0275mod=l.oAB({type:n}),n.\u0275inj=l.cJS({imports:[o.ez,u.bB,_.Bz]}),n})()}}]);

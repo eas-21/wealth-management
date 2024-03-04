@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwealth_management=self.webpackChunkwealth_management||[]).push([[561],{3561:(m,e,a)=>{a.r(e),a.d(e,{GalleryModule:()=>o});var u=a(6895),n=a(4650);let o=(()=>{class l{}return l.\u0275fac=function(r){return new(r||l)},l.\u0275mod=n.oAB({type:l}),l.\u0275inj=n.cJS({imports:[u.ez]}),l})()}}]);

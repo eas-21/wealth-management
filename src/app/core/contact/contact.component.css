@@ -138,8 +138,8 @@
     }
     .container{          
         flex-wrap: wrap;
-        width: auto;
-        
+        width: 100%;
+        justify-content: center;
     }
     .bluebox h3{
         font-size: 20px;
@@ -147,8 +147,9 @@
         text-decoration: underline;
     }
     .whitebox1{
-        background-color: #aecc5bbe;
-        width:2px 0px;        
+        background-color: #fff;
+        width:2px 0px; 
+        border: 1px solid #ef662b;       
     }
     .form-control{
         width: 100%;
@@ -188,9 +189,9 @@
     }
   
     .map{
-        width : auto;
+        width : 100%;
         height: 500px;
-        border:0;  
+        border: 0;  
         margin: 2px 2px;
     }
 }

@@ -38,7 +38,7 @@
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4);
 }
-.whitebox{
+.whitebox1{
     background-color: #fff;
     width: 820px;
     margin: 40px auto;
@@ -146,7 +146,7 @@
         text-align: left;
         text-decoration: underline;
     }
-    .whitebox{
+    .whitebox1{
         background-color: #aecc5bbe;
         width:2px 0px;        
     }

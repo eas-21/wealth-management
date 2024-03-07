@@ -12,3 +12,33 @@
     border-radius: 11px;
     /* background: #ef662b; */
 }
+.container {
+    width: 1250px;
+    color: #494b49;
+    background-color: #f0f1ecbe;
+    margin-top: 30px;  
+    font-size: 18px;    
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  .container1 {
+    width: 1250px;   
+    background-color: #f0f1ecbe;   
+    margin-top: 30px;     
+    font-size: 18px;    
+    line-height: 24px;
+    margin-bottom: 12px;
+    justify-content: center;
+  }
+  .border-left{
+    border-left: 3px solid #ef662b;
+    padding: 5px;
+  }
+  @media (max-width: 991px) {
+    .container1 {
+      width: 100%;   
+}
+.container {
+    width: 100%;
+  }
+  }

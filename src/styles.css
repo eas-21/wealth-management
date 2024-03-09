@@ -91,7 +91,7 @@
 }
 .whitebox{
     background-color: #fff;
-    margin: 20px auto;
+    margin: 50px auto;
     width: 1250px;
     display: flex;
     /* margin: 10px 20px; */
@@ -114,8 +114,8 @@
     padding: 30px;
 }
 .imagebox img{
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 330px;
 }
 @media (max-width: 991px) {
     .whitebox{      

@@ -13,6 +13,11 @@
   height: 3px;
   border-bottom: 1px dashed #c6c6c6;
 }
+.demo-title{
+  padding-top: 40px;
+  padding-bottom: 20px; 
+  border-bottom: 1px dashed #c6c6c6;
+}
 .carousel-item {
   height: 70vh;
   min-height: 500px;
@@ -457,14 +462,22 @@ div.desc {
   .container1 {
     width: 1170px;
   }
- 
+  .demo-title{
+    padding-top: 2px;
+    padding-bottom: 20px; 
+    border-bottom: 1px dashed #c6c6c6;
+  }
 }
 
 @media (min-width: 992px) {
   .container {
     width: 970px;
 
-
+    .demo-title{
+      padding-top: 2px;
+      padding-bottom: 20px; 
+      border-bottom: 1px dashed #c6c6c6;
+    }
   }
 
   .container1 {
@@ -488,10 +501,24 @@ div.desc {
   .gallery-item {
     margin-bottom: 30px;
   }
+  .carousel-indicators{
+    height: 20%;
+    color: red;
+  }
+  .demo-title{
+    padding-top: 2px;
+    padding-bottom: 20px; 
+    border-bottom: 1px dashed #c6c6c6;
+  }
 }
 
 /* small and extra-small screens */
 @media (max-width: 767px) {
+  .demo-title{
+    padding-top: 2px;
+    padding-bottom: 20px; 
+    border-bottom: 1px dashed #c6c6c6;
+  }
   .carousel-inner .carousel-item>div {
     display: none;
   }
@@ -502,6 +529,9 @@ div.desc {
     .card-img-container img {
       max-width: 100%;
     }
+     .carousel slide{
+    height: 30%;
+  }
   }
 
 

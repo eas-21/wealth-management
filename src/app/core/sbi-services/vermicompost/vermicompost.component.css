@@ -27,7 +27,7 @@
 .box.arrow-bottom:after {
   content: " ";
   position: absolute;
-  right: -15px;
+  right: -45px;
   top: 125px;
   border-top: 15px solid transparent;
   border-right: none;
@@ -40,7 +40,7 @@
 @media (max-width: 991px) {
   .vermiprocess{
     display: ruby; 
-    width:100%;
+    width:flex-wrap;
   }
   .container1 {
     width: 100%;   
@@ -54,9 +54,10 @@
     } 
     .box.arrow-bottom:after {
       content: " ";
-      position: inherit;
+      position: inherit;  
+      flex-grow: 2;   
       font-size: 10px;
-      right: 220px;
+      right: 150px;
       bottom: -35px;
       border-top: 15px solid #ef662b;
       border-right: 15px solid transparent;

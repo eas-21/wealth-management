@@ -44,9 +44,9 @@
   }
   .container1 {
     width: 100%;   
-
+  }
     .box {
-      width: 80%;
+      width: 60%;
       height: 100%;
       padding: 5px;
       position: relative;
@@ -65,5 +65,5 @@
       border-bottom: none;
      margin-bottom: 12px;
     }
-   }
+   
 }

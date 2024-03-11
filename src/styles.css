@@ -136,12 +136,14 @@
         color: #fff;
     }
     .imagebox{
-        width: 100%;
+        width: 80%;
         padding: 2px;
+    
     }
     .imagebox img{
         width: 100%;
         padding: 2px;
+       
     }
   }
 html, body { height: 100%; }

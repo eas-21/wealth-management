@@ -138,11 +138,14 @@
     .imagebox{
         width: 80%;
         padding: 2px;
-    
+        justify-content: center;
+        align-items: center;
     }
     .imagebox img{
         width: 100%;
         padding: 2px;
+        justify-content: center;
+        align-items: center;
        
     }
   }
